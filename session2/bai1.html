@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+</head>
+<body>
+    <header>
+        <h2>Create Account</h2>
+    </header>
+    <form action="" method="post" enctype="multipart/form-data"> 
+    <fieldset>
+        <legend>Registration information</legend>
+        <label for="firtName">Firt Name</label>
+        <input type="text" name="firtName" id="firtName" placeholder="enter your firt name" required/><br>
+
+        <label for="lastName">Last Name
+            <input type="text" name="lastName" id="lastName" placeholder="enter your last name"><br>
+        </label>
+
+        <label for="enmail">Email</label>
+        <input type="email" name="email" id="email" placeholder="enter your email" required><br>
+
+        <label for="phone">Phone</label>
+        <input type="text" name="phone" id="phone" placeholder="enter your phonenumber" required><br>
+
+        <label for="password" >Password</label>
+        <input type="password" name="password" id="password" placeholder="enter your password" required><br>
+
+        <label for="confirmPassword"  >Confirm Password</label>
+        <input type="password" name="confirmPassword" id="confirmPassword" placeholder="enter your password again" required><br>
+
+    
+    </fieldset>
+
+    <fieldset>
+        <legend>Personal information</legend>
+        <label for="gender">Gender</label>
+        <input type="radio" name="gender" value="male"/>
+        <label >Male</label>
+        <input type="radio" name="gender" value="female"/>
+        <label>Female</label>
+        
+        <label for="hobbit">Hobbit</label>
+        <input type="checkbox" name="hobbit1" id="hobbit1">
+        <label for="">Music</label>
+        <input type="checkbox" name="hobbit2" id="hobbit2">
+        <label for="">Sport</label>
+        <input type="checkbox" name="hobbit3" id="hobbit3">
+        <label for="">Travel</label>
+        <input type="checkbox" name="hobbit4" id="hobbit4">
+        <label for="">Movies</label><br>
+
+        <label for="">Source of Income</label>
+        <select name="opsions" id="opsions">
+            <option value="opsion1">Opsion1</option>
+            <option value="opsion2">Opsion2</option>
+            <option value="opsion3">Opsion3</option>
+        </select>
+        
+        <label for="">Income</label>
+        <input type="range" name="income" id="income"><br>
+
+        <label for="">Age</label>
+        <input type="number" name="age" id="age" min="18" max="30">
+
+        <label for="">Profile Picture:</label>
+        <input type="file" name="file" id="file"><br>
+
+        <label for="">Birthday:</label>
+        <input type="date" name="birthday" id="birthday">
+
+        <label for="">Address</label>
+        <input type="text" name="adress" id="adress"><br>
+        <label for="">Bio:</label>
+        <textarea name="bio" id="bio" cols="30" rows="5"></textarea>
+    </fieldset>
+    <input type="submit" value="Create">
+    <input type="reset" value="Reset">
+</form> 
+
+</body>
+</html>
