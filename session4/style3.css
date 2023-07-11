@@ -1,0 +1,12 @@
+h2{
+    text-align: center;
+}
+.a {
+    text-align: center;
+}
+.b span:nth-child(1){
+    color: red;
+}
+.b{
+    font-size: 12px;
+}

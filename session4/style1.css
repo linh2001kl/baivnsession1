@@ -1,0 +1,27 @@
+.a {
+    text-align: center;
+    padding: 24px;
+ }
+ .a button{
+     padding: 10px;
+     background-color: aqua;
+ }
+ .b{
+     text-align: center;
+     font-size: 30px;
+ }
+ .b span:nth-child(2){
+     color: blue;
+ }
+ .c{
+     text-align: center;
+ }
+ .c button{
+     height: 40px;
+     background-color:black;
+     color: #f1f1f1;
+     margin: 10px;
+ }
+ p{
+     text-align: center;
+ }
