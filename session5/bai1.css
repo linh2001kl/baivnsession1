@@ -1,0 +1,16 @@
+#section2{
+    float: left;
+    width: 50%;
+}
+
+#section3{
+    float: right;
+    width: 50%; 
+}
+
+article{
+    img{
+        float: left;
+      
+    }
+}
