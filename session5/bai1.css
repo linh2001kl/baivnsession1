@@ -1,16 +1,53 @@
-#section2{
+*{ 
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+   }
+
+main{
+width: 1024px;
+height: 500px;
+background-color:#F2F3F5
+}
+
+.firt > h2{
+    font-weight: 900;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.firt > p{
+    margin-top: 20px;
+    color: #D8D9DB;
+}
+
+.under{
+    margin-top: 10px;
+    height: 400px;
+    
+}
+
+.left{
+    padding: 10px;
+    width: 40%;
     float: left;
-    width: 50%;
 }
-
-#section3{
-    float: right;
-    width: 50%; 
+.left>div{
+    width: 100%;
+    height: 50%;
+    border-radius: 10px;
+    background-color: red;
+    background-image: url(https://th.bing.com/th/id/OIP.6pdYuOJykXMtN1AZfdiPDQHaEo?pid=ImgDet&rs=1);
+    background-size: cover;
 }
-
-article{
-    img{
-        float: left;
-      
-    }
+.left>p{
+    color: #D8D9DB;
+}
+.left>h2{
+    margin-top: 10px
+}
+.right{
+    width: 60%;
+    float: left;
 }
