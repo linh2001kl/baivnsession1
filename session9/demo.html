@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let cd = Number(prompt("nhap chieu dai hinh chu nhat :"));
+      let cr = Number(prompt("nhap chieu rong hinh chu nhat :"));
+      let donVi = "cm";
+      let chuVi = (cd + cr) * 2;
+      let dienTich = cd * cr;
+      document.write("chu vi la :" + chuVi + donVi);
+      document.write("<br>");
+
+      document.write("dien tich la:" + dienTich + donVi);
+        
+      //bai12
+
+      let soCo3ChuSo = Number(prompt("Nhập vào số có 3 chữ số: "));
+
+      // 567
+      // 7 đơn vị
+      // 6 chục
+      // 5 trăm
+
+      let hangTram = Math.floor(soCo3ChuSo / 100);
+      let hangChuc = Math.floor((soCo3ChuSo % 100) / 10);
+      let hangDonVi = (soCo3ChuSo % 100) % 10;
+
+      document.write("Số gốc là: " + soCo3ChuSo);
+      document.write("<br>");
+      document.write("Số gốc đảo ngược là: " + hangDonVi + hangChuc + hangTram);
+    </script>
+  </body>
+</html>

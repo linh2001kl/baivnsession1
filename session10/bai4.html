@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baitap4</title>
+</head>
+<body>
+<script>
+    let numb = +prompt("Nhập số thứ nhất");
+    let numb2 = +prompt("Nhập số thứ hai");
+    let pheptinh = prompt("Nhập phép tính")
+    //viết hoa là a + b viết thường là b + a
+    Cong = numb + numb2;
+    cong =numb2 + numb ;
+    Tru =numb - numb2;
+    tru =numb2 - numb ;
+    Nhan =numb * numb2;
+    nhan =numb2 * numb;
+    Chia =numb / numb2;
+    chia =numb2 / numb; 
+
+switch(pheptinh){
+    case "Cộng":
+    alert("Phép tính cộng :"  + Cong )
+    break;
+    case "cộng":
+    alert("Phép tính cộng :" + cong )
+    break;
+    case "Trừ":
+    alert("Phép tính trừ : " + Tru )
+    break;
+    case "trừ":
+    alert("Phép tính trừ : " + tru)
+    break;
+    case "Nhân":
+    alert("Phép tính nhân : " + Nhan)
+    break;
+    case "nhân":
+    alert("Phép tính nhân : " + nhan)
+    break;
+    case "Chia":
+    alert("Phép tính chia : " + Chia)
+    break;
+    case "chia":
+    alert("Phép tính chia : " + chia)
+    break;
+}
+</script>    
+</body>
+</html>
